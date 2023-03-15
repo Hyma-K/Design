@@ -1,0 +1,26 @@
+nav{
+    background-color:whitesmoke;
+    height: 48px;
+   width: 1397px; 
+
+   padding: 0px 0px 0px;
+
+}
+.navbar-brand{
+    color:black;
+    font:bold;
+    font-size: 16px;
+    font:medium;
+}
+nav ul{
+    float: right;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+    font-size: medium;
+}
+.list li img {
+    background-color: transparent;
+  }
