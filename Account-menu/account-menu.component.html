@@ -1,0 +1,17 @@
+<div class="dropdown">
+    <a href="#" class="navbar-brand" style="color: #5F5AF7; display: flex; padding-left: 14px;padding-right: 4px;" (mouseover)="showMenu = true" (mouseleave)="showMenu = false">
+      Account&nbsp;
+      <img src="assets/Icon awesome-chevron-circle-left.jpg" style="width: 15px; height: 15px; display: flex; align-self:center; align-items: center;">
+    </a>
+    <div class="dropdown-menu" [class.show]="showMenu" (mouseover)="showMenu = true" (mouseleave)="showMenu = false">
+      <a class="dropdown-item" href="#">Product</a>
+      <a class="dropdown-item" href="#">Region</a>
+      <a class="dropdown-item" href="#">Channel</a>
+      <a class="dropdown-item" href="#">Product Family</a>
+      <a class="dropdown-item" href="#">Sales Rep</a>
+      <a class="dropdown-item" href="#">Sales</a>
+
+
+    </div>
+  </div>
+  
