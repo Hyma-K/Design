@@ -1,34 +1,11 @@
 <nav>
   <div class="container">
     <div class="navbar-header">
-      <a href="#" class="navbar-brand" style="color: #292929;">Roll-up Parameter</a>
-     
-      <a href="#" class="navbar-brand" style="color: #5F5AF7; display: flex;">
-        Account&nbsp;
-        <div class="dropdown">
-          <a class="dropdown-toggle" href="#" role="button" id="accountDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="align-self: center;">
-            <img src="assets/Icon awesome-chevron-circle-left.jpg" style="width: 15px; height: 15px; display: flex; align-self:center; align-items: center;">
-          </a>
-          <div class="dropdown-menu" aria-labelledby="accountDropdown">
-            <p-dropdown [options]="names" [(ngModel)]= "selectedName1"></p-dropdown>
-          </div>
-        </div>
-      </a>
-      
-      <style>
-      .dropdown:hover .dropdown-menu {
-        display: block;
-      }
-      #productRegionChallenge {
-        display: none;
-      }
-      .dropdown:hover + #productRegionChallenge {
-        display: inline;
-      }
-      </style>
-      
+      <a href="#" class="navbar-brand" style="color: #292929; padding-left: 0px; padding-right: 0px;">Roll-up Parameter</a>
     </div>
-
+    <div class="navbar-nav">
+      <app-account-menu></app-account-menu>
+    </div>
     <ul class="list">
       <li>
         <img src="assets/Icon material-flip.jpg" style="background: transparent;">

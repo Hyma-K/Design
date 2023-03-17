@@ -19,8 +19,16 @@ nav ul{
 nav ul li{
     display: inline-block;
     padding: 15px;
-    font-size: medium;
+    font-size:13.5px;
 }
 .list li img {
     background-color: transparent;
+  }
+ 
+  
+  .list li a:hover {
+    text-decoration: none;
+    color: #5F5AF7;
+    font-weight: 500;
+
   }
